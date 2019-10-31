@@ -33,4 +33,6 @@ hi default link rbsClassName		rbsConstant
 hi default link rbsConstant		Type
 hi default link rbsMethodDeclaration	Identifier
 
+let b:current_syntax = "ruby-signature"
+
 " vim: sw=2 sts=2 ts=8 noet:
