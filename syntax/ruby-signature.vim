@@ -5,11 +5,11 @@ endif
 
 " Keywords
 " https://github.com/ruby/ruby-signature/blob/05515c3afeff52302accf090286b4ccc7abd7214/lib/ruby/signature/parser.y#L1141-L1173
-syn keyword rbsDefine class def end module
+syn keyword rbsDefine class def end module alias
 syn keyword rbsType void any untyped
-syn keyword rbsMacro include extend prepend attr_reader attr_writer attr_accessor
+syn keyword rbsMacro include extend prepend attr_reader attr_writer attr_accessor public private
 " I'm not sure what should I categorize them
-syn keyword rbsKeyword top bot instance bool nil singleton interface super public private alias extension incompatible unchecked out in type self
+syn keyword rbsKeyword top bot instance bool nil singleton interface super extension incompatible unchecked out in type self
 
 " Comment
 syn match rbsComment "#.*$" contains=@Spell
