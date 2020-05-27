@@ -4,7 +4,7 @@ endif
 
 
 " Keywords
-" https://github.com/ruby/ruby-signature/blob/05515c3afeff52302accf090286b4ccc7abd7214/lib/ruby/signature/parser.y#L1141-L1173
+" https://github.com/ruby/rbs/blob/05515c3afeff52302accf090286b4ccc7abd7214/lib/ruby/signature/parser.y#L1141-L1173
 syn keyword rbsDefine end alias
 syn keyword rbsDefine class module interface nextgroup=rbsClassDeclaration skipwhite
 syn keyword rbsDefine def nextgroup=rbsMethodDeclaration skipwhite
@@ -33,6 +33,6 @@ hi default link rbsClassName		rbsConstant
 hi default link rbsConstant		Type
 hi default link rbsMethodDeclaration	Identifier
 
-let b:current_syntax = "ruby-signature"
+let b:current_syntax = "rbs"
 
 " vim: sw=2 sts=2 ts=8 noet:
