@@ -1,0 +1,6 @@
+class Foo
+  module Bar
+    interface _Baz
+    end
+  end
+end
