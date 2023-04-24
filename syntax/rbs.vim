@@ -8,10 +8,10 @@ endif
 syn keyword rbsDefine end alias
 syn keyword rbsDefine class module interface nextgroup=rbsClassDeclaration skipwhite
 syn keyword rbsDefine def nextgroup=rbsMethodDeclaration skipwhite
-syn keyword rbsType void any untyped top bot bool boolish nil
+syn keyword rbsType void untyped top bot bool boolish nil
 syn keyword rbsMacro include extend prepend attr_reader attr_writer attr_accessor public private
 " I'm not sure what should I categorize them
-syn keyword rbsKeyword singleton super incompatible unchecked out in type self overload
+syn keyword rbsKeyword singleton unchecked out in type self
 
 " Comment
 syn match rbsComment "#.*$" contains=@Spell
